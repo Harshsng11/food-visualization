@@ -36,3 +36,8 @@ plt.savefig('plot.png', format='png')
 
 # Optionally, display the plot
 plt.show()
+
+
+
+
+
