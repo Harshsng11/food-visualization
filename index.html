@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Spice Restaurant</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+    <style>
+        :root {
+            --primary-color: #e67e22;
+            --secondary-color: #27ae60;
+            --accent-color: #f1c40f;
+        }
+        .sec-btn {
+            background-color: var(--primary-color);
+            transition: all 0.3s ease;
+            color: #fff;
+        }
+        .sec-btn:hover {
+            background-color: var(--secondary-color);
+            transform: scale(1.05);
+        }
+        .h2-title span {
+            color: var(--accent-color);
+        }
+        .header-menu ul li a:hover {
+            color: var(--primary-color);
+        }
+        .dish-box:hover {
+            box-shadow: 0 0 15px rgba(230, 126, 34, 0.3);
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body-fixed">
+    <header class="site-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="header-logo">
+                        <a href="index.html">
+                            <img src="logo.png" width="160" height="36" alt="Indian Spice Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="main-navigation">
+                        <button class="menu-toggle"><span></span><span></span></button>
+                        <nav class="header-menu">
+                            <ul class="menu food-nav-menu">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#menu">Menu</a></li>
+                                <li><a href="#gallery">Gallery</a></li>
+                                <li><a href="#team">Team</a></li>
+                                <li><a href="#testimonials">Testimonials</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                        <div class="header-right">
+                            <form action="#" class="header-search-form for-des">
+                                <input type="search" class="form-input" placeholder="Search Our Menu...">
+                                <button type="submit"><i class="uil uil-search"></i></button>
+                            </form>
+                            <a href="javascript:void(0)" class="header-btn header-cart">
+                                <i class="uil uil-shopping-bag"></i>
+                                <span class="cart-number">3</span>
+                            </a>
+                            <a href="javascript:void(0)" class="header-btn">
+                                <i class="uil uil-user-md"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="viewport">
+        <div id="js-scroll-content">
+            <!-- Home Banner -->
+            <section class="main-banner" id="home">
+                <div class="js-parallax-scene">
+                    <div class="banner-shape-1 w-100" data-depth="0.30">
+                        <img src="assets/images/berry.png" alt="Spice Decoration">
+                    </div>
+                    <div class="banner-shape-2 w-100" data-depth="0.25">
+                        <img src="assets/images/leaf.png" alt="Leaf Decoration">
+                    </div>
+                </div>
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="banner-text">
+                                    <h1 class="h1-title">Welcome to <span>Indian Spice</span> Restaurant</h1>
+                                    <p>Indulge in the rich flavors of India with our authentic dishes, crafted with love and tradition. From spicy curries to tandoori delights, we bring the taste of India to your plate.</p>
+                                    <div class="banner-btn mt-4">
+                                        <a href="#menu" class="sec-btn">Discover Our Menu</a>
+                                        <a href="#contact" class="sec-btn ml-3">Contact Us</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="banner-img-wp">
+                                    <div class="banner-img" style="background-image: url(assets/images/main-b.jpg);"></div>
+                                </div>
+                                <div class="banner-img-text mt-4 m-auto">
+                                    <h5 class="h5-title">Butter Chicken</h5>
+                                    <p>Succulent chicken cooked in a creamy tomato sauce, spiced to perfection.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section class="about-sec section" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="sec-title text-center mb-5">
+                                <p class="sec-sub-title mb-3">About Us</p>
+                                <h2 class="h2-title">Our <span>Spicy Journey</span></h2>
+                                <div class="sec-title-shape mb-4">
+                                    <img src="assets/images/title-shape.svg" alt="Title Decoration">
+                                </div>
+                                <p>Founded in 2015, Indian Spice Restaurant is a celebration of India's culinary heritage. Our chefs use traditional recipes and fresh ingredients to create dishes that warm the soul. Whether you're a spice enthusiast or prefer milder flavors, we have something for everyone.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-8 m-auto">
+                            <div class="about-video">
+                                <div class="about-video-img" style="background-image: url(assets/images/about.jpg);"></div>
+                                <div class="play-btn-wp">
+                                    <a href="assets/images/video.mp4" data-fancybox="video" class="play-btn"><i class="uil uil-play"></i></a>
+                                    <span>Watch Our Story</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Menu Section -->
+            <section style="background-image: url(assets/images/menu-bg.png);" class="our-menu section bg-light repeat-img" id="menu">
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="sec-title text-center mb-5">
+                                    <p class="sec-sub-title mb-3">Our Menu</p>
+                                    <h2 class="h2-title">Savor the <span>Taste of India</span></h2>
+                                    <div class="sec-title-shape mb-4">
+                                        <img src="assets/images/title-shape.svg" alt="Title Decoration">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-tab-wp">
+                            <div class="row">
+                                <div class="col-lg-12 m-auto">
+                                    <div class="menu-tab text-center">
+                                        <ul class="filters">
+                                            <div class="filter-active"></div>
+                                            <li class="filter" data-filter=".all, .breakfast, .lunch, .dinner"><img src="assets/images/menu-1.png" alt="All Dishes">All</li>
+                                            <li class="filter" data-filter=".breakfast"><img src="assets/images/menu-2.png" alt="Breakfast">Breakfast</li>
+                                            <li class="filter" data-filter=".lunch"><img src="assets/images/menu-3.png" alt="Lunch">Lunch</li>
+                                            <li class="filter" data-filter=".dinner"><img src="assets/images/menu-4.png" alt="Dinner">Dinner</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-list-row">
+                            <div class="row g-xxl-5 bydefault_show" id="menu-dish">
+                                <div class="col-lg-4 col-sm-6 dish-box-wp breakfast" data-cat="breakfast">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img"><img src="assets/images/dish/1.png" alt="Fresh Chicken Veggies"></div>
+                                        <div class="dish-rating">5 <i class="uil uil-star"></i></div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">chicken starter</h3>
+                                            <p>350 calories</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li><p>Type</p><b>Non Veg</b></li>
+                                                <li><p>Persons</p><b>2</b></li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li><b>Rs. 499</b></li>
+                                                <li><button class="dish-add-btn"><i class="uil uil-plus"></i></button></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 dish-box-wp breakfast" data-cat="breakfast">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img"><img src="assets/images/dish/2.png" alt="Grilled Chicken"></div>
+                                        <div class="dish-rating">4.3 <i class="uil uil-star"></i></div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Grilled Chicken</h3>
+                                            <p>250 calories</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li><p>Type</p><b>Non Veg</b></li>
+                                                <li><p>Persons</p><b>2</b></li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li><b>Rs. 359</b></li>
+                                                <li><button class="dish-add-btn"><i class="uil uil-plus"></i></button></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 dish-box-wp lunch" data-cat="lunch">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img"><img src="assets/images/dish/3.png" alt="Paneer Noodles"></div>
+                                        <div class="dish-rating">4 <i class="uil uil-star"></i></div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Paneer Noodles</h3>
+                                            <p>100 calories</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li><p>Type</p><b>Veg</b></li>
+                                                <li><p>Persons</p><b>2</b></li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li><b>Rs. 250/p></li>
+                                                <li><button class="dish-add-btn"><i class="uil uil-plus"></i></button></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 dish-box-wp lunch" data-cat="lunch">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img"><img src="assets/images/dish/4.png" alt="Chicken Noodles"></div>
+                                        <div class="dish-rating">4.5 <i class="uil uil-star"></i></div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Chicken Noodles</h3>
+                                            <p>120 calories</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li><p>Type</p><b>Non Veg</b></li>
+                                                <li><p>Persons</p><b>2</b></li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li><b>Rs. 350/p</b></li>
+                                                <li><button class="dish-add-btn"><i class="uil uil-plus"></i></button></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 dish-box-wp dinner" data-cat="dinner">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img"><img src="assets/images/dish/5.png" alt="Bread Boiled Egg"></div>
+                                        <div class="dish-rating">5 <i class="uil uil-star"></i></div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Bread Boiled Egg</h3>
+                                            <p>120 calories</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li><p>Type</p><b>Non Veg</b></li>
+                                                <li><p>Persons</p><b>2</b></li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li><b>Rs. 99</b></li>
+                                                <li><button class="dish-add-btn"><i class="uil uil-plus"></i></button></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 dish-box-wp dinner" data-cat="dinner">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img"><img src="assets/images/dish/6.png" alt="Immunity Dish"></div>
+                                        <div class="dish-rating">5 <i class="uil uil-star"></i></div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Immunity Dish</h3>
+                                            <p>450 calories</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li><p>Type</p><b>Veg</b></li>
+                                                <li><p>Persons</p><b>2</b></li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li><b>Rs. 350</b></li>
+                                                <li><button class="dish-add-btn"><i class="uil uil-plus"></i></button></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Gallery Section -->
+            <section class="gallery-sec section" id="gallery">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="sec-title text-center mb-5">
+                                <p class="sec-sub-title mb-3">Gallery</p>
+                                <h2 class="h2-title">Our <span>Food Moments</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="gallery-img" style="background-image: url(assets/images/gallery1.jpg);"></div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="gallery-img" style="background-image: url(assets/images/gallery2.jpg);"></div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="gallery-img" style="background-image: url(assets/images/gallery3.jpg);"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Team Section -->
+            <section class="team-sec section" id="team">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="sec-title text-center mb-5">
+                                <p class="sec-sub-title mb-3">Our Team</p>
+                                <h2 class="h2-title">Meet Our <span>Culinary Experts</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper team-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="team-box">
+                                    <div class="team-img" style="background-image: url(assets/images/team1.jpg);"></div>
+                                    <h3 class="h3-title">Chef Rajesh Kumar</h3>
+                                    <p>Head Chef with 15 years of experience in Indian cuisine.</p>
+                                    <div class="social-icon">
+                                        <ul>
+                                            <li><a href="#"><i class="uil uil-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="uil uil-twitter"></i></a></li>
+                                            <li><a href="#"><i class="uil uil-instagram"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="team-box">
+                                    <div class="team-img" style="background-image: url(assets/images/team2.jpg);"></div>
+                                    <h3 class="h3-title">Priya Sharma</h3>
+                                    <p>Pastry Chef specializing in Indian desserts.</p>
+                                    <div class="social-icon">
+                                        <ul>
+                                            <li><a href="#"><i class="uil uil-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="uil uil-twitter"></i></a></li>
+                                            <li><a href="#"><i class="uil uil-instagram"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="team-box">
+                                    <div class="team-img" style="background-image: url(assets/images/team3.jpg);"></div>
+                                    <h3 class="h3-title">Amit Patel</h3>
+                                    <p>Manager ensuring a delightful dining experience.</p>
+                                    <div class="social-icon">
+                                        <ul>
+                                            <li><a href="#"><i class="uil uil-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="uil uil-twitter"></i></a></li>
+                                            <li><a href="#"><i class="uil uil-instagram"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Testimonials Section -->
+            <section class="testimonials-sec section" id="testimonials">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="sec-title text-center mb-5">
+                                <p class="sec-sub-title mb-3">Testimonials</p>
+                                <h2 class="h2-title">What Our <span>Guests Say</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="testimonials-box">
+                                <div class="testimonials-box-img" style="background-image: url(assets/images/testimonial1.jpg);"></div>
+                                <div class="testimonial-box-top">
+                                    <div class="testimonials-box-text">
+                                        <h3 class="h3-title">Sarah Johnson</h3>
+                                        <p>The butter chicken was divine! Best Indian food I've had in years.</p>
+                                    </div>
+                                    <div class="star-rating-wp">
+                                        <div class="star-rating" style="width: 100%;">
+                                            <span class="star-rating__fill" style="width: 100%;"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="testimonials-box">
+                                <div class="testimonials-box-img" style="background-image: url(assets/images/testimonial2.jpg);"></div>
+                                <div class="testimonial-box-top">
+                                    <div class="testimonials-box-text">
+                                        <h3 class="h3-title">Michael Lee</h3>
+                                        <p>Amazing ambiance and even better food. A must-visit!</p>
+                                    </div>
+                                    <div class="star-rating-wp">
+                                        <div class="star-rating" style="width: 90%;">
+                                            <span class="star-rating__fill" style="width: 90%;"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="testimonials-box">
+                                <div class="testimonials-box-img" style="background-image: url(assets/images/testimonial3.jpg);"></div>
+                                <div class="testimonial-box-top">
+                                    <div class="testimonials-box-text">
+                                        <h3 class="h3-title">Anita Desai</h3>
+                                        <p>The naan and curry combo was a taste of home.</p>
+                                    </div>
+                                    <div class="star-rating-wp">
+                                        <div class="star-rating" style="width: 95%;">
+                                            <span class="star-rating__fill" style="width: 95%;"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Newsletter Section -->
+            <section class="newsletter-sec section">
+                <div class="container">
+                    <div class="newsletter-box" style="background-image: url(assets/images/newsletter-bg.jpg);">
+                        <div class="bg-overlay dark-overlay"></div>
+                        <div class="row">
+                            <div class="col-lg-8 m-auto">
+                                <div class="newsletter-box-text text-center">
+                                    <h2 class="h2-title">Join Our <span>Spice Club</span></h2>
+                                    <p>Subscribe to our newsletter for exclusive offers, recipes, and updates!</p>
+                                    <form class="newsletter-form">
+                                        <input type="email" class="form-input" placeholder="Enter your email" required>
+                                        <button type="submit" class="sec-btn primary-btn">Subscribe</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="contact-sec section" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="sec-title text-center mb-5">
+                                <p class="sec-sub-title mb-3">Contact Us</p>
+                                <h2 class="h2-title">Get in <span>Touch</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="contact-info">
+                                <h3 class="h3-title">Visit Us</h3>
+                                <p>123 Spice Lane, Flavor Town, India</p>
+                                <h3 class="h3-title">Call Us</h3>
+                                <p><a href="tel:+911234567890">+91 123 456 7890</a></p>
+                                <h3 class="h3-title">Email Us</h3>
+                                <p><a href="mailto:info@indianspice.com">info@indianspice.com</a></p>
+                                <h3 class="h3-title">Opening Hours</h3>
+                                <p>Mon-Sat: 11 AM - 10 PM<br>Sun: 12 PM - 9 PM</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <form class="contact-form">
+                                <input type="text" class="form-input" placeholder="Your Name" required>
+                                <input type="email" class="form-input" placeholder="Your Email" required>
+                                <textarea class="form-input" rows="5" placeholder="Your Message" required></textarea>
+                                <button type="submit" class="sec-btn">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="site-footer">
+                <div class="top-footer section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="footer-info">
+                                    <div class="footer-logo">
+                                        <img src="logo.png" width="160" height="36" alt="Indian Spice Logo">
+                                    </div>
+                                    <p>Bringing the taste of India to your table since 2015.</p>
+                                    <div class="social-icon">
+                                        <ul>
+                                            <li><a href="#"><i class="uil uil-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="uil uil-twitter"></i></a></li>
+                                            <li><a href="#"><i class="uil uil-instagram"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <div class="footer-flex-box">
+                                    <div class="footer-menu">
+                                        <h3 class="h3-title">Quick Links</h3>
+                                        <ul>
+                                            <li><a href="#home">Home</a></li>
+                                            <li><a href="#about">About</a></li>
+                                            <li><a href="#menu">Menu</a></li>
+                                            <li><a href="#contact">Contact</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="footer-menu">
+                                        <h3 class="h3-title">Our Services</h3>
+                                        <ul>
+                                            <li><a href="#">Dine-In</a></li>
+                                            <li><a href="#">Takeaway</a></li>
+                                            <li><a href="#">Delivery</a></li>
+                                            <li><a href="#">Catering</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="footer-table-info">
+                                        <h3 class="h3-title">Opening Hours</h3>
+                                        <ul>
+                                            <li>Mon-Sat: 11 AM - 10 PM</li>
+                                            <li>Sun: 12 PM - 9 PM</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="copyright-text text-center">
+                                    <p>&copy; 2025 Indian Spice Restaurant. All rights reserved.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/font-awesome.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/jquery.mixitup.min.js"></script>
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+    <script src="assets/js/parallax.min.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/ScrollToPlugin.min.js"></script>
+    <script src="assets/js/smooth-scroll.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

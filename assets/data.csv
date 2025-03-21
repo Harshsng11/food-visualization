@@ -1,0 +1,16 @@
+Dish Name,Category,Type,Price (Rs.),Orders (Sales),Rating (out of 5),Is Best Dish (Target)
+Chicken Starter,Breakfast,Non-Veg,499,120,5,Yes
+Grilled Chicken,Breakfast,Non-Veg,359,90,4.3,No
+Paneer Noodles,Lunch,Veg,250,150,4,Yes
+Chicken Noodles,Lunch,Non-Veg,350,130,4.5,Yes
+Bread Boiled Egg,Dinner,Non-Veg,99,80,5,No
+Immunity Dish,Dinner,Veg,350,70,5,No
+Butter Chicken,Dinner,Non-Veg,450,200,4.8,Yes
+Veg Biryani,Lunch,Veg,300,110,4.2,No
+Tandoori Chicken,Dinner,Non-Veg,500,140,4.7,Yes
+Masala Dosa,Breakfast,Veg,150,100,4.5,No
+Chicken Biryani,Lunch,Non-Veg,400,160,4.6,Yes
+Paneer Tikka,Dinner,Veg,320,90,4.4,No
+Egg Fried Rice,Lunch,Non-Veg,280,85,4.1,No
+Veg Thali,Lunch,Veg,350,95,4.3,No
+Naan,Dinner,Veg,50,250,4.9,Yes
